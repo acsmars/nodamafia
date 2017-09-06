@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Web based adaptation of the classic party game Mafia",
   "dependencies": {
-    "express": "^4.15.4",
     "socket.io": "^2.0.3"
   }
 }
