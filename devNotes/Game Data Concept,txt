@@ -1,0 +1,42 @@
+gameData
+{
+	"roomName"
+	"roomID"
+	"chatRooms": [
+		"public": {
+			"open": True
+			"forced": True
+			"log":[ // Big ol list of messages
+				{
+					"sender": "bob"
+					"timestamp": "server-timestamp"
+					"contents": "message"
+					""
+				}
+
+			]
+		}
+		"notes" {
+			"open": True
+			"force": False
+		}
+		"groupChats" {
+			"open": True
+			"forced": True
+		}
+		"deadChat": {
+
+		}
+		"everyBloodyDMPossible": {
+			"open": False
+			"forced": False
+		}
+	]
+	"players": [
+		"bob": {
+			"role": "mafia"
+			"team": "mafia"
+			"alive": True
+		}
+	]
+}

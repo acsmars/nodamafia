@@ -1,0 +1,33 @@
+Notes
+
+Timer, synchronized every 5 seconds
+
+Lobby Room
+	Comms Module
+	Game Module
+
+	Join a lobby and enter a username
+	Then you select a game and your user is passed to the game instance to become a player
+
+Cookie based authentication
+	server instance hash
+	userNumber
+	userSecret
+
+Disconnected players will get the current turn max timeout, and will auto-pass every turn after that
+
+Dead players see all chats they were in when alive, including dead messages in those chats
+Alive players see only alive messages in their chats
+All messages of all chats are visible to everyone once the game ends
+DM with self is a notepad
+
+Timestamps are server time, wishlist: client timezone adjust
+
+Spam protection
+If more than 8 messages in the last 2 seconds or 2 messages with 200 characters total in the last 2 seconds or the current messages is more than 200 characters
+Frequency, Overall Volume, Max Size limits
+Client is notified by server-chan if the message is rejected
+
+Action Types
+Targetted
+
